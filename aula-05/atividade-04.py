@@ -20,7 +20,7 @@ class Professor(Pessoa):
         print(f"Prof: {self.nome} | Idade: {self.idade} | Salário: {self.salario}")
 
 a1 = Aluno("Blair Waldorf", 22, "10000")
-p1 = Professor("Chuck Bass", 22, 90000)
+p1 = Professor("Eleanor Waldorf", 47, 900000)
 
 lista_pessoas = [a1, p1]
 for pessoa in lista_pessoas:
